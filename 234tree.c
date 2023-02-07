@@ -94,7 +94,7 @@ Node* insert(Node** root, int value) {
 Node* insertnonfull(Node* x, int value) {
    //find where to place value
    int i = 0;
-   while ( i < x->n && value > x->keys[i])
+   while ( i < x->n && value > x->keys[i]){
       i++;
    if (x->leaf) {
       int j;
